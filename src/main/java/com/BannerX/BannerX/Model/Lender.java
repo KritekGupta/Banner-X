@@ -23,6 +23,6 @@ public class Lender {
     @Id
     private String id;
 
-    private String lenderName;
-    private List<ScreenFeatures> screens;
+    private String title;
+    private List<Screens> screens;
 }

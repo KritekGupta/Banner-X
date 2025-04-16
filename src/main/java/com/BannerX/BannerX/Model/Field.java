@@ -11,7 +11,11 @@ import java.util.List;
 @AllArgsConstructor
 @NoArgsConstructor
 @Component
-public class ScreenFeatures {
-    private String screenName;
-    private List<String> features;
+public class Field {
+    private String label;
+    private String name;
+    private String type;
+    private boolean required;
+
+    private List<String> options;
 }
