@@ -1,6 +1,7 @@
 package com.BannerX.BannerX.consts;
 
-public class Consts {
-    public static final String baseUrl = "api/forms";
-    public static final String lenderById = baseUrl + "/{lenderId}";
+public class ApiConstants {
+    public static final String storeLender = "api/forms";
+    public static final String lenderById = storeLender + "/{lenderId}";
+    public static final String getAll = "lender/getAll";
 }
