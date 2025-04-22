@@ -1,17 +1,16 @@
-package com.BannerX.BannerX.Controller;
+package com.BannerX.BannerX.controller;
 
 
-import com.BannerX.BannerX.Consts.Consts;
-import com.BannerX.BannerX.Model.Lender;
-import com.BannerX.BannerX.Service.LenderService;
+import com.BannerX.BannerX.model.Lender;
+import com.BannerX.BannerX.service.LenderService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
-import static com.BannerX.BannerX.Consts.Consts.baseUrl;
-import static com.BannerX.BannerX.Consts.Consts.lenderById;
+import static com.BannerX.BannerX.consts.Consts.baseUrl;
+import static com.BannerX.BannerX.consts.Consts.lenderById;
 
 @RestController("")
-@CrossOrigin(origins = "http://localhost:5174")
+@CrossOrigin(origins = "*")
 public class Controller {
 
     @Autowired

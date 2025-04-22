@@ -1,6 +1,6 @@
-package com.BannerX.BannerX.Repo;
+package com.BannerX.BannerX.repo;
 
-import com.BannerX.BannerX.Model.Lender;
+import com.BannerX.BannerX.entity.Lender;
 import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.stereotype.Component;
 
