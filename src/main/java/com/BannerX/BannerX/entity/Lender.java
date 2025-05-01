@@ -23,15 +23,10 @@ public class Lender {
     private String id;
 
     private String title;
+//    private String imageUrl;
+    private LenderCategory category;
+    private boolean deployed;
     private List<Screens> screens;
-
-    @CreatedDate
-    private Instant createdAt;
-
-    @LastModifiedDate
-    private Instant updatedAt;
-
-
 
     @Data
     @NoArgsConstructor
@@ -49,9 +44,15 @@ public class Lender {
             private String example;
             private String type;
             private boolean required;
+            private boolean validate;
             private List<String> options;
 
         }
     }
 
+    @CreatedDate
+    private Instant createdAt;
+
+    @LastModifiedDate
+    private Instant updatedAt;
 }
